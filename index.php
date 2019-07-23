@@ -99,24 +99,6 @@ $(function(){
                     </div>
                 </a>
             </div>
-            <!--
-            <div class="carousel-item">
-                <a href="article.php">
-                    <img src="images/tuisong1.jpg">
-                    <div class="carousel-caption">
-                       
-                    </div>
-                </a>
-                <!-- 推送合集 -->
-           <!--</div>
-            <div class="carousel-item">
-                <a href="know.php">
-                    <img src="images/zhishi.jpg">
-                    <div class="carousel-caption">
-                        <!-- 知识库 -->
-                    <!--</div>
-                </a>
-            </div>-->
         </div>
 
         <!-- 左右切换按钮 -->
@@ -155,44 +137,6 @@ $(function(){
     </nav>
     <br>
 
-    <!--<div class="container-fluid">
-        <a class="btn btn-light btn-2px btn-block" href="article.php">
-            <h6>辅导员面向全体学生宣讲党的十九大精神</h6>
-        </a>
-        <a class="btn btn-light btn-2px btn-block" href="paiming.html">
-            <h6>党的十九大精神辅导员宣讲人气投票</h6>
-        </a>
-        <a class="btn btn-light btn-2px btn-block" href="https://q.yiban.cn/app/index/appid/226352">
-            <h6>党的十九大精神研究生宣讲人气投票</h6>
-        </a>
-        <a class="btn btn-light btn-2px btn-block" href="article.php">
-            <h6>党的十九大精神宣讲活动专题合辑</h6>
-        </a>
-        <a class="btn btn-light btn-2px btn-block" href="know.php">
-            <h6>党的十九大精神学习知识库</h6>
-        </a>
-    </div>
-
-    <div class="dropup">
-        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
-            <i class="fa fa-navicon"></i>
-        </button>
-        <div class="dropdown-menu">
-        	<a class="dropdown-item" href="https://q.yiban.cn/app/index/appid/226352">
-                <i class="fa fa-user-plus fa-1g">研究生投票</i>
-            </a>
-            <a class="dropdown-item" href="paiming.html">
-                <i class="fa fa-user-plus fa-1g">辅导员投票</i>
-            </a>
-            <a class="dropdown-item" href="article.php">
-                <i class="fa fa-folder fa-1g">专题</i>
-            </a>
-            <a class="dropdown-item" href="know.php">
-                <i class="fa fa-book fa-1g">知识</i>
-            </a>
-        </div>
-    </div><br />-->
-    
 <p align="center">
         <?php $sql1 = "select date,max(date) as max from bang";
 		$s = $pdo->query($sql1);
